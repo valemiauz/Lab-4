@@ -1,86 +1,86 @@
 === REPORTE DE SIMULACIÓN HOSPITALARIA ===
-Fecha: Tue Jun 10 20:35:27 CLT 2025
+Fecha: Wed Jun 11 23:32:52 CLT 2025
 Duración: 24 horas (1440 minutos)
 
 === ESTADÍSTICAS GENERALES ===
 Total pacientes atendidos: 144
-Pacientes que excedieron tiempo máximo: 8
+Pacientes que excedieron tiempo máximo: 6
 
 === DETALLE POR CATEGORÍA ===
 Categoría 1 (Crítico):
-  Pacientes atendidos: 12
-  Tiempo promedio de espera: 3,3 minutos
+  Pacientes atendidos: 13
+  Tiempo promedio de espera: 2,3 minutos
   Tiempo máximo permitido: 0 minutos
 
 Categoría 2 (Muy Urgente):
-  Pacientes atendidos: 17
-  Tiempo promedio de espera: 1,8 minutos
+  Pacientes atendidos: 18
+  Tiempo promedio de espera: 2,5 minutos
   Tiempo máximo permitido: 10 minutos
 
 Categoría 3 (Urgente):
-  Pacientes atendidos: 29
-  Tiempo promedio de espera: 2,2 minutos
+  Pacientes atendidos: 33
+  Tiempo promedio de espera: 1,4 minutos
   Tiempo máximo permitido: 60 minutos
 
 Categoría 4 (Menos Urgente):
-  Pacientes atendidos: 42
-  Tiempo promedio de espera: 1,7 minutos
+  Pacientes atendidos: 40
+  Tiempo promedio de espera: 2,1 minutos
   Tiempo máximo permitido: 120 minutos
 
 Categoría 5 (No Urgente):
-  Pacientes atendidos: 44
-  Tiempo promedio de espera: 1,3 minutos
+  Pacientes atendidos: 40
+  Tiempo promedio de espera: 1,4 minutos
   Tiempo máximo permitido: 240 minutos
 
 === LOG DE EVENTOS (PRIMEROS 50) ===
-Minuto 0: Llega paciente Lucía Martínez (C3, Área: Infantil)
-Minuto 10: Llega paciente Patricia Castillo (C5, Área: Urgencia_adulto)
-Minuto 15: Atendido Lucía Martínez (C3) - Espera: 15 min
-Minuto 20: Llega paciente Juan Iglesias (C4, Área: Infantil)
+Minuto 0: Llega paciente Dolores Morales (C4, Área: Infantil)
+Minuto 10: Llega paciente Manuel Gil (C3, Área: Infantil)
+Minuto 15: Atendido Manuel Gil (C3) - Espera: 5 min
+Minuto 20: Llega paciente Antonia Pérez (C5, Área: Urgencia_adulto)
 Minuto 20: Activando atención especial por acumulación
-Minuto 20: Atendido Juan Iglesias (C4) - Espera: 0 min
-Minuto 20: Atendido Patricia Castillo (C5) - Espera: 10 min
-Minuto 30: Llega paciente Miguel Gómez (C3, Área: Cardiología)
-Minuto 30: Atendido Miguel Gómez (C3) - Espera: 0 min
-Minuto 40: Llega paciente Miguel Molina (C3, Área: Infantil)
-Minuto 45: Atendido Miguel Molina (C3) - Espera: 5 min
-Minuto 50: Llega paciente Javier Prieto (C2, Área: SAPU)
+Minuto 20: Atendido Dolores Morales (C4) - Espera: 20 min
+Minuto 20: Atendido Antonia Pérez (C5) - Espera: 0 min
+Minuto 30: Llega paciente Laura Torres (C4, Área: Infantil)
+Minuto 30: Atendido Laura Torres (C4) - Espera: 0 min
+Minuto 40: Llega paciente Dolores Vázquez (C3, Área: Infantil)
+Minuto 45: Atendido Dolores Vázquez (C3) - Espera: 5 min
+Minuto 50: Llega paciente Diego Muñoz (C5, Área: Infantil)
 Minuto 50: Activando atención especial por acumulación
-Minuto 50: Atendido Javier Prieto (C2) - Espera: 0 min
-Minuto 60: Llega paciente Amparo Álvarez (C3, Área: Traumatología)
-Minuto 60: Atendido Amparo Álvarez (C3) - Espera: 0 min
-Minuto 70: Llega paciente Ana Delgado (C1, Área: Infantil)
-Minuto 75: Atendido Ana Delgado (C1) - Espera: 5 min
-Minuto 80: Llega paciente Rubén Cortés (C5, Área: Infantil)
+Minuto 50: Atendido Diego Muñoz (C5) - Espera: 0 min
+Minuto 60: Llega paciente Daniel Guerrero (C5, Área: Infantil)
+Minuto 60: Atendido Daniel Guerrero (C5) - Espera: 0 min
+Minuto 70: Llega paciente Javier Méndez (C1, Área: SAPU)
+Minuto 75: Atendido Javier Méndez (C1) - Espera: 5 min
+Minuto 80: Llega paciente Cristina Delgado (C1, Área: Urgencia_adulto)
 Minuto 80: Activando atención especial por acumulación
-Minuto 80: Atendido Rubén Cortés (C5) - Espera: 0 min
-Minuto 90: Llega paciente Elena Moreno (C4, Área: Infantil)
-Minuto 90: Atendido Elena Moreno (C4) - Espera: 0 min
-Minuto 100: Llega paciente Jesús Medina (C1, Área: SAPU)
-Minuto 105: Atendido Jesús Medina (C1) - Espera: 5 min
-Minuto 110: Llega paciente Dolores Alonso (C2, Área: Urgencia_adulto)
+Minuto 80: Atendido Cristina Delgado (C1) - Espera: 0 min
+Minuto 90: Llega paciente Iván Fernández (C3, Área: Infantil)
+Minuto 90: Atendido Iván Fernández (C3) - Espera: 0 min
+Minuto 100: Llega paciente Lucía Jiménez (C5, Área: Urgencia_adulto)
+Minuto 105: Atendido Lucía Jiménez (C5) - Espera: 5 min
+Minuto 110: Llega paciente Antonia Jiménez (C5, Área: Infantil)
 Minuto 110: Activando atención especial por acumulación
-Minuto 110: Atendido Dolores Alonso (C2) - Espera: 0 min
-Minuto 120: Llega paciente Patricia Blanco (C4, Área: Infantil)
-Minuto 120: Atendido Patricia Blanco (C4) - Espera: 0 min
-Minuto 130: Llega paciente Francisco M|artín (C3, Área: SAPU)
-Minuto 135: Atendido Francisco M|artín (C3) - Espera: 5 min
-Minuto 140: Llega paciente José M|artín (C2, Área: Infantil)
+Minuto 110: Atendido Antonia Jiménez (C5) - Espera: 0 min
+Minuto 120: Llega paciente Dolores Ortiz (C5, Área: Urgencia_adulto)
+Minuto 120: Atendido Dolores Ortiz (C5) - Espera: 0 min
+Minuto 130: Llega paciente Iván Hernández (C3, Área: Infantil)
+Minuto 135: Atendido Iván Hernández (C3) - Espera: 5 min
+Minuto 140: Llega paciente Julia Iglesias (C4, Área: Urgencia_adulto)
 Minuto 140: Activando atención especial por acumulación
-Minuto 140: Atendido José M|artín (C2) - Espera: 0 min
-Minuto 150: Llega paciente Luis Sánchez (C3, Área: Traumatología)
-Minuto 150: Atendido Luis Sánchez (C3) - Espera: 0 min
-Minuto 160: Llega paciente Miguel Gutiérrez (C5, Área: Urgencia_adulto)
-Minuto 165: Atendido Miguel Gutiérrez (C5) - Espera: 5 min
-Minuto 170: Llega paciente Manuel Morales (C4, Área: Urgencia_adulto)
+Minuto 140: Atendido Julia Iglesias (C4) - Espera: 0 min
+Minuto 150: Llega paciente Laura Iglesias (C5, Área: SAPU)
+Minuto 150: Atendido Laura Iglesias (C5) - Espera: 0 min
+Minuto 160: Llega paciente David Garrido (C4, Área: SAPU)
+Minuto 165: Atendido David Garrido (C4) - Espera: 5 min
+Minuto 170: Llega paciente Rosa Ramírez (C3, Área: Infantil)
 Minuto 170: Activando atención especial por acumulación
-Minuto 170: Atendido Manuel Morales (C4) - Espera: 0 min
-Minuto 180: Llega paciente Adrián Vázquez (C5, Área: SAPU)
-Minuto 180: Atendido Adrián Vázquez (C5) - Espera: 0 min
-Minuto 190: Llega paciente Lucía Sánchez (C2, Área: Urgencia_adulto)
-Minuto 195: Atendido Lucía Sánchez (C2) - Espera: 5 min
-Minuto 200: Llega paciente Rubén Gil (C5, Área: Urgencia_adulto)
+Minuto 170: Atendido Rosa Ramírez (C3) - Espera: 0 min
+Minuto 180: Llega paciente Rafael Cortés (C4, Área: Infantil)
+Minuto 180: Atendido Rafael Cortés (C4) - Espera: 0 min
+Minuto 190: Llega paciente Rosa Vázquez (C2, Área: SAPU)
+Minuto 195: Atendido Rosa Vázquez (C2) - Espera: 5 min
+Minuto 200: Llega paciente Patricia Moreno (C5, Área: SAPU)
 Minuto 200: Activando atención especial por acumulación
-Minuto 200: Atendido Rubén Gil (C5) - Espera: 0 min
-Minuto 210: Llega paciente Lucía Díaz (C4, Área: Urgencia_adulto)
+Minuto 200: Atendido Patricia Moreno (C5) - Espera: 0 min
+Minuto 210: Llega paciente Pedro Ortiz (C4, Área: Urgencia_adulto)
 ... (Ver log completo en memoria)
