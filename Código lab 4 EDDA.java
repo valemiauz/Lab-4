@@ -196,7 +196,7 @@ class GeneradorPacientes {
     };
 
     private static final String[] AREAS = {
-            "SAPU", "Urgencia_adulto", "Infantil", "Cardiología", "Traumatología"
+            "SAPU", "Urgencia_adulto", "Infantil"
     };
 
     private Random random;
